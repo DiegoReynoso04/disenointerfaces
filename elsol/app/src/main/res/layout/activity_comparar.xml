@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompararActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comparar_planetas"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#830DEC"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/planeta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/planeta_1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <AutoCompleteTextView
+            android:id="@+id/planeta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:hint="@string/planeta_2"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_span="2"
+            android:text="@string/diametro"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="@color/purple_500"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#C087F3"
+        >
+
+        <TextView
+            android:id="@+id/diamPlaneta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/diamPlaneta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:textAlignment="center"
+            android:textSize="15sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_span="2"
+            android:text="@string/distancia_al_sol"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="@color/purple_500"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#C087F3"
+        >
+
+        <TextView
+            android:id="@+id/distPlaneta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/distPlaneta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:textAlignment="center"
+            android:textSize="15sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_span="2"
+            android:text="@string/densidad"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="@color/purple_500"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#C087F3"
+        >
+
+        <TextView
+            android:id="@+id/densPlanetas1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/densPlanetas2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:textAlignment="center"
+            android:textSize="15sp"/>
+    </TableRow>
+</TableLayout>
